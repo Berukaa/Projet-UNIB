@@ -1,0 +1,63 @@
+h1
+{
+	color: white
+}
+a
+{
+	color: white;
+	font-size:xx-large;
+}
+body
+{
+	font-family: ComicSansMS, Arial, Verdana;
+	font-size: large;
+	background-image:url("wallpaper4.jpg");
+	background-attachment:fixed;
+}
+#menu-vertical, #menu-vertical ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  width: 100px; /* seule ligne rajoutée */
+}
+#menu-vertical li {
+  position: relative;
+  background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
+}
+#menu-vertical a {
+  display:block;
+  text-decoration: none;
+  color: #000;
+}
+#menu-vertical ul {
+  position: absolute;
+  left:-999em;
+}
+#menu-vertical li:hover ul {
+  top: 0;
+  left: 180px;
+}
+header
+{
+	text-align:center;
+	font-size:large;
+	background-position:center;
+	
+}
+section
+{
+	display : block;
+	text-align:center;
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10px;
+}	
+#lien1
+{
+	margin-left: 5%;
+}
+#lien2
+{
+	margin-left: 5%;
+}
